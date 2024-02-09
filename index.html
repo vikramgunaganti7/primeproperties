@@ -1,0 +1,325 @@
+index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="main-container-bg">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+                        <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707z" />
+                        <path d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018" />
+                    </svg>
+                    <span class="logo-heading">Prime Properties</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#sectionHome">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#aboutUs">About Us</a>
+                        <a class="nav-link" href="#ourWork">Our Work</a>
+                        <a class="nav-link" href="#followUsSection" aria-disabled="false">Follow Us</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="container col-12">
+                <div class="row">
+                    <div class="main-container p-3">
+                        <div class="detailed-view-card-container">
+                            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://res.cloudinary.com/drqhop28z/image/upload/v1707416847/real-estate-property-night-view-sttah8uqfyoch8ln_aq9r5l.jpg" class="d-block w-100" alt="..." />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/drqhop28z/image/upload/v1707378836/610_elkib4.jpg" class="d-block w-100" alt="..." />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/drqhop28z/image/upload/v1707369861/real-estate-digital-art-0kmi22tcj2x60lim_m3emfh.jpg" class="d-block w-100" alt="..." />
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-end">
+                                <div class="tourism-card">
+                                    <h1 class="main-heading">Unlocking Real Estate Success<br /> in the Digital World</h1>
+                                    <p class="paragraph">Strategic Social Media Solutions Tailored<br /> for the Property Market</p>
+                                    <button class="button" onclick="display('sectionFavouritePlaces')">BookAppoinment</button>
+                                    <button class="button" onclick="display('sectionFavouritePlaces')">View Work</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wcu-section pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12  col-lg-12" id="aboutUs">
+                                <h1 class="wcu-section-heading">About Us?</h1>
+                                <p class="wcu-section-description">
+                                    • Overview of the agency's background, mission, and values.<br />
+                                    • Information about team members and their expertise.<br />
+                                    • Highlight unique selling points or differentiators.<br />
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-4">
+                                <div class="wcu-card p-3 mb-3">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" class="wcu-card-image" />
+                                    <h1 class="wcu-card-title mt-3">Background, Mission, And Values:</h1>
+                                    <p class="wcu-card-description">
+                                        Our real estate agency was founded on the principles of integrity, innovation, and customer satisfaction. We strive to provide unparalleled service to our clients, helping them achieve their property goals with transparency and professionalism. Our mission is to be the go-to destination for individuals and families seeking their dream homes or lucrative investment opportunities. We value honesty, reliability, and fostering long-term relationships built on trust.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="wcu-card p-3 mb-3">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" class="wcu-card-image" />
+                                    <h1 class="wcu-card-title mt-3">Team Expertise:</h1>
+                                    <p class="wcu-card-description">
+                                        Our team comprises experienced real estate professionals, each bringing a unique set of skills and knowledge to the table. From seasoned agents with years of industry experience to tech-savvy marketers and diligent administrative staff, we ensure that every client receives top-notch support throughout their real estate journey. Whether it's navigating complex transactions, conducting market analyses, or leveraging digital marketing strategies, our team is well-equipped to handle diverse needs and preferences.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="wcu-card p-3 mb-3">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png" class="wcu-card-image" />
+                                    <h1 class="wcu-card-title mt-3">Unique Selling Points(USPs) or Differentiatirs:</h1>
+                                    <p class="wcu-card-description">
+
+                                        <span class="offers">Personalized Service:</span> We understand that every client is unique, and we tailor our approach to meet their specific requirements, whether buying, selling, or renting.<br />
+                                        <span class="offers">Cutting-Edge Technology:</span> We leverage the latest advancements in real estate technology to streamline processes, enhance marketing efforts, and provide clients with a seamless experience.<br />
+                                        <span class="offers">Extensive Network:</span> With a vast network of industry connections and partnerships, we can offer clients access to exclusive listings, off-market opportunities, and reliable service providers.<br />
+                                        <span class="offers">Local Expertise: </span>Our team has in-depth knowledge of the local market trends, neighborhoods, and amenities, enabling us to provide valuable insights and guidance to clients.<br />
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="wcu-card p-3 mb-3">
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" class="wcu-card-image" />
+                                    <h1 class="wcu-card-title mt-3">Upcoming Missions:</h1>
+                                    <p class="wcu-card-description">
+                                        As we look to the future, our agency is committed to further enhancing our service offerings and expanding our reach. Some of our upcoming missions include:
+                                        - Launching innovative digital tools and platforms to enhance the property search and transaction process.
+                                        - Expanding our presence into new markets and geographical areas to better serve a wider range of clients.
+                                        - Investing in ongoing training and professional development for our team members to stay ahead of industry trends and best practices.
+                                        - Strengthening our community engagement efforts through philanthropic initiatives and partnerships with local organizations.
+
+                                        We are dedicated to continually evolving and improving to meet the evolving needs of our clients and the real estate market.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explore-menu-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" id="ourWork">
+                        <h1 class="menu-section-heading">Our Work</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 col-xl-4">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://res.cloudinary.com/drqhop28z/image/upload/v1707378363/Aerial_Dusk_-1160x653_ij0dek.jpg" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Project 1: "Urban Oasis Residences"</h1>
+                            <p class="detailedViewParagraph">Brief Description:
+                                Transforming a vision into reality, we partnered with Urban Oasis Residences to launch a vibrant social media campaign. Through visually stunning content and strategic storytelling, we showcased the luxurious amenities, modern architecture, and the unique lifestyle offered by this urban haven. Our tailored approach resulted in a 30% increase in online inquiries, contributing to a successful pre-sales phase.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://res.cloudinary.com/drqhop28z/image/upload/v1707378506/f5f87e6b67_residential-projects-gurgaon-1360x650_dtaesk.jpg" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Project 2: "GreenView Estates"</h1>
+                            <p class="detailedViewParagraph">Brief Description:
+                                For GreenView Estates, we crafted a social media strategy focused on sustainability and eco-friendly living. Emphasizing the project's green initiatives, we created content that resonated with environmentally conscious homebuyers. This approach led to a 20% boost in organic reach and positioned GreenView Estates as a leader in sustainable real estate.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://res.cloudinary.com/drqhop28z/image/upload/v1707418549/7.12.23-wachter-corporate-real-estate-GettyImages-136333671_jvvsxh.jpg" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Project 3: "Skyline Heights Commercial Hub"</h1>
+                            <p class="detailedViewParagraph">Brief Description:
+                                Taking on the challenge of marketing a commercial real estate project, we devised a dynamic social media campaign for Skyline Heights Commercial Hub. Emphasizing the strategic location, modern facilities, and potential for business growth, our campaign resulted in a 25% increase in leasing inquiries. The project now stands as a thriving business destination in the heart of the city.</p>
+                        </div>
+                    </div>
+                    <button class="button col-xl-12" onclick="display('sectionHome')">Go To Home Page</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="detailview-bg">
+            <h1 class="title"> Happy Customers... <br />Testimonials</h1>
+            <p class="cn">John and Sarah Smith</p>
+            <p class="cn-review">
+                “We had an amazing experience with HomeLink Realty. Their expertise in the real estate market helped us find our dream home. The entire team was professional, attentive, and made the process seamless. Highly recommended!”
+            </p>
+
+
+            <p class="cn">Emily Davis
+            </p>
+            <p class="cn-review">
+                “Cityscape Properties made selling my property a breeze. From the initial consultation to the closing, their team was proactive, transparent, and dedicated. I couldn't be happier with the results.”
+            </p>
+
+
+            <p class="cn">Lisa Rodriguez
+            </p>
+            <p class="cn-review">
+                “Urban Living Homes made the home-buying process enjoyable. Their attention to detail and personalized service set them apart. I'm grateful for their guidance and highly recommend their services.”
+
+            </p>
+
+        </div>
+        <div id="Testimonials-page">
+            <div class="healthy-section pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="text-center">
+                                <img src="https://res.cloudinary.com/drqhop28z/image/upload/v1707441560/boss-congratulating-female-employee-with-promotion_1163-5387_be3sti.avif" class="healthy-section-img " />
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <h1 class="section-heading">
+                                Why Choose Us?
+                            </h1>
+                            <p class="section-description">
+                                Trusted by Satisfied Clients: Our clients' success stories speak volumes about our commitment to excellence.
+                                Industry-Leading Expertise: Benefit from our in-depth knowledge of the real estate market.
+                                Personalized Service: We understand that every client has unique needs and go the extra mile to ensure a tailor-made experience.
+                            </p>
+                            <button class="custom-button" onclick="display('section1')">Watch Video</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section1">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8LSt8_11wbQ?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-primary mt-5 text-center" onclick="display('sectionHome')">
+            Go Back
+        </button>
+    </div>
+    <div class="thanking-customers-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <h1 class="thanking-customers-section-heading">
+                        Thank you for being a valuable customer to us.
+                    </h1>
+                    <p class="thanking-customers-section-description">
+                        We have a surprise gift for you
+                    </p>
+                    <div class="d-md-none">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                    </div>
+                    <div>
+                        <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                            Redeem Gift
+                        </button>
+                        <button class="button custom-button col-xl-12 btn-secondary" onclick="display('sectionHome')">Go Back</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                                            Gift Voucher
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" class="w-100" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="https://res.cloudinary.com/drqhop28z/image/upload/v1707447022/real-estate-logo-house-logo-home-logo-sign-symbol-free-vector_ychhbh.jpg" class="logo" />
+                        <h1 class="footer-section-mail-id">primeproperties@gmail.com</h1>
+                        <p class="footer-section-address">
+                            123 Parul University Vadodhara, Gujarat, India.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
